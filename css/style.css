@@ -1,0 +1,475 @@
+@font-face {
+    font-family: 'Buda';
+    src: url(../font/Buda.ttf);
+}
+
+
+/* cyrillic-ext */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcDRrBZQI.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+
+/* cyrillic */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcBBrBZQI.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+
+/* greek-ext */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcDBrBZQI.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+
+/* greek */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcAxrBZQI.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+
+/* hebrew */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcAhrBZQI.woff2) format('woff2');
+    unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+
+
+/* vietnamese */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcDxrBZQI.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcDhrBZQI.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+
+/* latin */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcABrB.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,700;1,900&display=swap');
+body {
+    background-color: #060606;
+}
+
+.bk1 {
+    position: relative;
+    background-image: url('../img/bk1.png');
+    width: 100%;
+    background-size: contain;
+    height: 0;
+    padding-top: 75.17%;
+}
+
+.navbar-brand {
+    font-family: 'Buda' !important;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.navbar {
+    position: relative;
+    margin-top: -71.29%;
+    margin-left: 5.1%;
+}
+
+.nav-item {
+    margin-left: 25px;
+    max-lines: 1;
+}
+
+.navbar-nav {
+    margin-left: 6.6%;
+}
+
+.right {
+    position: relative;
+    margin-top: 10px;
+    margin-right: 5.1%;
+}
+
+.resmid {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.nav-link {
+    font-family: 'Arimo' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.choc {
+    position: relative;
+    text-align: center;
+    font-family: 'Buda';
+    font-size: 96px;
+    margin-left: 18%;
+    margin-right: 18%;
+    color: white;
+    margin-top: 13.1%;
+}
+
+.logo {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13.7%;
+}
+
+.khay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 26.3%;
+    margin-top: 19.3%;
+    margin-left: 5.2%;
+}
+
+.papapa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 44.6%;
+    margin-top: 28.2%;
+    margin-left: 50.2%;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 5.2%;
+    margin-top: 55.5%;
+    width: 32.8%;
+}
+
+.illi1 {
+    position: relative;
+    width: 95.8%;
+    margin-left: -3.2%;
+    margin-top: 35.4%;
+}
+
+.bk2 {
+    position: relative;
+    background-image: url('../img/bk2.png');
+    width: 100%;
+    background-size: contain;
+    height: 0;
+    padding-top: 182.76%;
+    margin-top: 3.19%;
+}
+
+.change {
+    position: relative;
+    text-align: right;
+    color: white;
+    font-size: 80px;
+    font-family: 'Buda';
+    margin-right: 5.21%;
+    margin-top: -171.65%;
+}
+
+.pchange {
+    position: relative;
+    font-weight: 400;
+    margin-top: 6.7%;
+    font-family: "Arimo";
+    color: white;
+    font-size: 32px;
+    font-style: normal;
+}
+
+.contain {
+    position: relative;
+    float: right;
+    width: 40%;
+    margin-right: 5.21%;
+}
+
+.illi2 {
+    position: relative;
+    margin-left: 6.31%;
+    width: 93.69%;
+    margin-top: 17.71%;
+}
+
+.trail {
+    position: relative;
+    color: white;
+    font-size: 80px;
+    font-family: 'Buda';
+    max-width: 60.07%;
+    margin-left: 8.16%;
+    margin-top: 4.86%;
+}
+
+.ptrail {
+    position: relative;
+    font-weight: 400;
+    margin-left: 8.16%;
+    margin-top: 5.34%;
+    font-family: "Arimo";
+    color: white;
+    font-size: 32px;
+    font-style: normal;
+    max-width: 40%;
+}
+
+.lesson {
+    position: relative;
+    color: white;
+    font-size: 70px;
+    font-family: 'Buda';
+    margin-top: 32.32%;
+    text-align: center;
+}
+
+.center {
+    margin-top: 8%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tst {
+    width: 100%;
+}
+
+.moit {
+    width: 43.63%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+h2 {
+    font-size: 36px;
+    color: white;
+    font-family: 'Buda';
+    margin-top: 2.54%;
+}
+
+.center2 {
+    margin-top: 3.53%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.descript {
+    position: relative;
+    font-family: 'Source Serif Pro';
+    color: white;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    max-width: 60%;
+}
+
+.deuxf {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -7.04%;
+    width: 45.14%;
+}
+
+.maqu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 61%;
+}
+
+.white {
+    position: relative;
+    margin-top: 11.67%;
+    background-color: white;
+    padding-top: 0.01%;
+}
+
+.prof {
+    position: relative;
+    font-size: 64px;
+    color: black;
+    font-family: 'Buda';
+    margin-top: 10.19%;
+    margin-left: 5.2%;
+}
+
+.p1 {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-left: 5.2%;
+    max-width: 45%;
+    margin-top: 5.21%;
+}
+
+.p2 {
+    margin-left: 49%;
+    text-align: right;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    max-width: 45%;
+    margin-top: 5.21%;
+}
+
+.center3 {
+    margin-top: 6.31%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20.14%;
+}
+
+#assistant {
+    margin-top: 11.6%;
+    width: 21.53%;
+    height: 33.62%;
+}
+
+#mastere {
+    margin-top: 5.8%;
+    width: 21.53%;
+    height: 36%;
+}
+
+#artiste {
+    margin-top: 17.4%;
+    width: 21.53%;
+    height: 30.09%;
+}
+
+#profesor {
+    width: 21.53%;
+    height: 31.77%;
+}
+
+.element {
+    margin-left: 0.58%;
+    margin-right: 0.58%;
+}
+
+.apptitle {
+    margin-top: 11.92%;
+    position: relative;
+    color: white;
+    font-size: 70px;
+    font-family: 'Buda';
+    max-width: 50%;
+    margin-left: 5.21%;
+}
+
+.appdescript {
+    position: relative;
+    color: white;
+    font-family: 'Arimo';
+    max-width: 50%;
+    margin-left: 5.21%;
+    font-size: 24px;
+    margin-top: 2.26%;
+    font-weight: 400;
+}
+
+.phone {
+    position: absolute;
+    right: 0;
+    margin-right: 5.21%;
+    margin-top: 11.92%;
+    width: 36.86%;
+}
+
+.appdescript2 {
+    position: relative;
+    color: white;
+    font-family: 'Arimo';
+    max-width: 50%;
+    margin-left: 49.06%;
+    font-size: 24px;
+    margin-top: 2.26%;
+    font-weight: 400;
+    padding-bottom: 33.75%;
+}
+
+.apptitle2 {
+    margin-top: 19.1%;
+    position: relative;
+    color: white;
+    font-size: 70px;
+    font-family: 'Buda';
+    max-width: 50%;
+    margin-left: 49.06%;
+}
+
+.phone2 {
+    position: absolute;
+    margin-top: 13.9%;
+    width: 39%;
+}
