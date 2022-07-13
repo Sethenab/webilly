@@ -111,12 +111,13 @@ body {
     background-size: contain;
     height: 0;
     padding-top: 75.17%;
+    background-repeat: no-repeat;
 }
 
 .navbar-brand {
     font-family: 'Buda' !important;
     font-style: normal;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 300;
 }
 
@@ -150,7 +151,7 @@ body {
     font-family: 'Arimo' !important;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .choc {
@@ -208,6 +209,7 @@ body {
 
 .bk2 {
     position: relative;
+    background-repeat: no-repeat;
     background-image: url('../img/bk2.png');
     width: 100%;
     background-size: contain;
@@ -336,14 +338,15 @@ h2 {
     position: absolute;
     top: 0;
     right: 0;
+    width: 45.13%;
     margin-top: 61%;
 }
 
 .white {
     position: relative;
-    margin-top: 11.67%;
     background-color: white;
     padding-top: 0.01%;
+    margin-top: 18.80%;
 }
 
 .prof {
@@ -455,7 +458,7 @@ h2 {
     font-size: 24px;
     margin-top: 2.26%;
     font-weight: 400;
-    padding-bottom: 33.75%;
+    padding-bottom: 17.36%;
 }
 
 .apptitle2 {
@@ -472,4 +475,220 @@ h2 {
     position: absolute;
     margin-top: 13.9%;
     width: 39%;
+}
+
+.lips {
+    position: relative;
+    width: 84.31%;
+    margin-left: 15.69%;
+}
+
+.bk3 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url('../img/bk3.png');
+    width: 100%;
+    background-size: contain;
+    height: 0;
+    padding-top: 119.9%;
+}
+
+.succes {
+    font-family: 'Buda';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+    color: #FFFFFF;
+    margin-top: -114.7%;
+    max-width: 45%;
+    margin-left: 5.2%;
+}
+
+.succesp {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-left: 5.2%;
+    max-width: 40%;
+    margin-bottom: 6.6%;
+}
+
+.c1 {
+    float: right;
+    margin-right: 4%;
+    width: 44%;
+    margin-top: -15%;
+}
+
+h3 {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.avis1 {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-top: 1.2%;
+}
+
+.c2 {
+    margin-top: 5.78%;
+    width: 41.37%;
+    margin-left: 5.2%;
+}
+
+.bk4 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url('../img/bk4.png');
+    width: 100%;
+    background-size: contain;
+    height: 0;
+    padding-top: 113.17%;
+    margin-top: 20%;
+}
+
+.pp {
+    position: relative;
+    width: 100%;
+    margin-top: -162%;
+}
+
+.tdescript {
+    max-width: 70%;
+    position: relative;
+    margin-top: -70%;
+    font-family: 'Buda';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 88px;
+    text-align: center;
+}
+
+.centre {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    margin-left: 5.21%;
+    margin-right: 5.21%;
+    width: 61.68%;
+}
+
+.dbord {
+    position: relative;
+    border-radius: 40px;
+    text-decoration: none;
+    background-color: #A0843D;
+    text-align: center;
+    padding: 30px;
+}
+
+.inner {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.marge {
+    margin-top: 6.12%;
+}
+
+.dbord2 {
+    position: relative;
+    border: 1px solid #A0843D;
+    border-radius: 40px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 5%;
+}
+
+.inner2 {
+    position: relative;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #A0843D;
+}
+
+.dbord3 {
+    position: relative;
+    border-radius: 25px;
+    text-decoration: none;
+    background-color: #A0843D;
+    text-align: center;
+    padding: 30px;
+}
+
+.centre2 {
+    margin-top: -50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.gold {
+    background-color: #C9B26B;
+    margin-left: 11.28%;
+    margin-right: 11.28%;
+    margin-top: -4%;
+}
+
+.news {
+    font-family: 'Buda';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 75px;
+    text-align: center;
+    max-width: 50%;
+}
+
+.test {
+    border-radius: 40px;
+    border: none;
+    height: 125px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    width: 72.9411764706%;
+}
+
+::placeholder {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+form {
+    width: 76.17%;
+    border-radius: 40px;
+    background-color: #FFFFFF;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
 }
