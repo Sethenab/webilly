@@ -1,0 +1,455 @@
+@font-face {
+    font-family: 'Buda';
+    src: url(../font/Buda.ttf);
+}
+
+
+/* cyrillic-ext */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcDRrBZQI.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+
+/* cyrillic */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcBBrBZQI.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+
+/* greek-ext */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcDBrBZQI.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+
+/* greek */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcAxrBZQI.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+
+/* hebrew */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcAhrBZQI.woff2) format('woff2');
+    unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+
+
+/* vietnamese */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcDxrBZQI.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcDhrBZQI.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+
+/* latin */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcABrB.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,700;1,900&display=swap');
+body {
+    background-color: #000306;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.bk1 {
+    position: relative;
+    background-image: url('../img/bk5.png');
+    width: 100%;
+    background-size: contain;
+    height: 0;
+    padding-top: 75.17%;
+    background-repeat: no-repeat;
+}
+
+.navbar-brand {
+    position: relative;
+    font-family: 'Buda' !important;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 300;
+    margin-left: -3%;
+}
+
+.navbar {
+    position: relative;
+    margin-top: -71.29%;
+    margin-left: 5.1%;
+}
+
+.nav-item {
+    position: relative;
+    margin-left: 25px;
+    max-lines: 1;
+}
+
+.navbar-nav {
+    position: relative;
+    margin-left: 6.6%;
+}
+
+.right {
+    position: relative;
+    margin-top: 10px;
+    margin-right: 5.1%;
+}
+
+.resmid {
+    position: relative;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.nav-link {
+    position: relative;
+    font-family: 'Arimo' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.contact {
+    position: relative;
+    width: 88.6574074074%;
+    margin-left: 11.3425925926%;
+    margin-top: 18.22%;
+}
+
+.question {
+    position: relative;
+    text-align: center;
+    font-family: 'Buda';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 60px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.line {
+    position: relative;
+    margin-top: 2.4%;
+    height: 0.8px;
+    width: 19.67%;
+    background-color: #A0843D;
+    margin-left: 40.162037037%;
+    margin-right: 40.162037037%;
+}
+
+.questionp {
+    margin-top: 3.35%;
+    position: relative;
+    text-align: center;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+}
+
+.center {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tst {
+    position: relative;
+    width: 100%;
+}
+
+.moit {
+    position: relative;
+    width: 44.2%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.descript {
+    position: relative;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+.red {
+    position: relative;
+    color: #FF0000;
+}
+
+.input {
+    position: relative;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #BEBEBE;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+}
+
+textarea:focus,
+input:focus {
+    position: relative;
+    outline: none;
+}
+
+.div {
+    position: relative;
+    margin-left: 5.2%;
+    margin-right: 5.2%;
+    margin-top: 4.34%;
+}
+
+.div2 {
+    position: relative;
+    margin-top: 4.34%;
+}
+
+.div3 {
+    position: relative;
+    margin-top: 9%;
+}
+
+input[type=checkbox] {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin-left: 5.2%;
+    margin-top: 8.02951388889%;
+}
+
+.check {
+    position: relative;
+    margin-left: 5.2%;
+}
+
+.confidentialite {
+    position: relative;
+    color: #000000;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    margin-top: 8.26099537037%;
+    margin-left: 1.62%;
+}
+
+.align {
+    position: relative;
+    display: flex;
+}
+
+.gold {
+    position: relative;
+    color: #A0843D;
+}
+
+.dbord {
+    position: relative;
+    border-radius: 40px;
+    text-decoration: none;
+    background-color: #A0843D;
+    text-align: center;
+    padding-left: 6.65%;
+    padding-right: 6.65%;
+    padding-top: 1.56%;
+    padding-bottom: 1.56%;
+    margin-top: 6.5%;
+    margin-left: auto;
+    margin-right: 5.21%;
+}
+
+.inner {
+    position: relative;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.half {
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
+
+.hhelp {
+    position: relative;
+    margin-top: 40.73%;
+    font-family: 'Buda';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 96px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.flex {
+    position: relative;
+    display: flex;
+}
+
+.hcontact {
+    position: relative;
+    margin-top: 17.3%;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.dbord10 {
+    position: relative;
+    border: 1px solid #FFFFFF;
+    border-radius: 40px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.inner10 {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.bflex {
+    margin-top: 9.25%;
+    position: relative;
+    display: flex;
+    margin-left: 5.21%;
+}
+
+.chocobn {
+    position: relative;
+    font-family: 'Buda';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.taille {
+    width: 29.51%;
+}
+
+.tb+.tb {
+    margin-top: 20px;
+}
+
+.tb {
+    position: relative;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.copy {
+    margin-top: 2.37%;
+    text-align: center;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    /* identical to box height, or 37px */
+    color: #FFFFFF;
+    padding-bottom: 2.37%;
+}
+
+.yaoi {
+    margin-top: 5.31%;
+    width: 100%;
+}
+
+.bbflex {
+    margin-top: 50px;
+}
+
+.walter {
+    background-color: #FFFFFF;
+    padding-bottom: 24.01%;
+    padding-top: 19.9%;
+    margin-top: -5%;
+}

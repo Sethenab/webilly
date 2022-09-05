@@ -101,7 +101,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,700;1,900&display=swap');
 body {
-    background-color: #060606;
+    background-color: #070708;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .bk1 {
@@ -115,24 +119,28 @@ body {
 }
 
 .navbar-brand {
+    position: relative;
     font-family: 'Buda' !important;
     font-style: normal;
     font-size: 32px;
     font-weight: 300;
+    margin-left: -3%;
 }
 
 .navbar {
-    position: relative;
     margin-top: -71.29%;
+    position: relative;
     margin-left: 5.1%;
 }
 
 .nav-item {
+    position: relative;
     margin-left: 25px;
     max-lines: 1;
 }
 
 .navbar-nav {
+    position: relative;
     margin-left: 6.6%;
 }
 
@@ -143,11 +151,13 @@ body {
 }
 
 .resmid {
+    position: relative;
     margin-left: 25px;
     margin-right: 25px;
 }
 
 .nav-link {
+    position: relative;
     font-family: 'Arimo' !important;
     font-style: normal;
     font-weight: 400;
@@ -171,6 +181,17 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 13.7%;
+    transform-origin: 50% 50%;
+    -webkit-animation: rotating 5s linear infinite;
+}
+
+@-webkit-keyframes rotating {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
 }
 
 .khay {
@@ -292,16 +313,19 @@ body {
 }
 
 .tst {
+    position: relative;
     width: 100%;
 }
 
 .moit {
+    position: relative;
     width: 43.63%;
     margin-left: 0.5%;
     margin-right: 0.5%;
 }
 
 h2 {
+    position: relative;
     font-size: 36px;
     color: white;
     font-family: 'Buda';
@@ -359,6 +383,7 @@ h2 {
 }
 
 .p1 {
+    position: relative;
     font-family: 'Arimo';
     font-style: normal;
     font-weight: 400;
@@ -371,6 +396,7 @@ h2 {
 }
 
 .p2 {
+    position: relative;
     margin-left: 49%;
     text-align: right;
     font-family: 'Arimo';
@@ -393,29 +419,34 @@ h2 {
 }
 
 #assistant {
+    position: relative;
     margin-top: 11.6%;
     width: 21.53%;
     height: 33.62%;
 }
 
 #mastere {
+    position: relative;
     margin-top: 5.8%;
     width: 21.53%;
     height: 36%;
 }
 
 #artiste {
+    position: relative;
     margin-top: 17.4%;
     width: 21.53%;
     height: 30.09%;
 }
 
 #profesor {
+    position: relative;
     width: 21.53%;
     height: 31.77%;
 }
 
 .element {
+    position: relative;
     margin-left: 0.58%;
     margin-right: 0.58%;
 }
@@ -475,6 +506,7 @@ h2 {
     position: absolute;
     margin-top: 13.9%;
     width: 39%;
+    margin-left: 5.21%;
 }
 
 .lips {
@@ -494,6 +526,7 @@ h2 {
 }
 
 .succes {
+    position: relative;
     font-family: 'Buda';
     font-style: normal;
     font-weight: 300;
@@ -505,6 +538,7 @@ h2 {
 }
 
 .succesp {
+    position: relative;
     font-family: 'Arimo';
     font-style: normal;
     font-weight: 400;
@@ -516,6 +550,7 @@ h2 {
 }
 
 .c1 {
+    position: relative;
     float: right;
     margin-right: 4%;
     width: 44%;
@@ -523,6 +558,7 @@ h2 {
 }
 
 h3 {
+    position: relative;
     font-family: 'Arimo';
     font-style: normal;
     font-weight: 700;
@@ -531,6 +567,7 @@ h3 {
 }
 
 .avis1 {
+    position: relative;
     font-family: 'Arimo';
     font-style: normal;
     font-weight: 400;
@@ -540,6 +577,7 @@ h3 {
 }
 
 .c2 {
+    position: relative;
     margin-top: 5.78%;
     width: 41.37%;
     margin-left: 5.2%;
@@ -575,12 +613,14 @@ h3 {
 }
 
 .centre {
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
 .line {
+    position: relative;
     margin-left: 5.21%;
     margin-right: 5.21%;
     width: 61.68%;
@@ -596,14 +636,16 @@ h3 {
 }
 
 .inner {
+    position: relative;
     font-family: 'Arimo';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    color: #FFFFFF;
+    font-size: 20px;
+    color: #FFFFFF
 }
 
 .marge {
+    position: relative;
     margin-top: 6.12%;
 }
 
@@ -639,6 +681,7 @@ h3 {
 }
 
 .centre2 {
+    position: relative;
     margin-top: -50%;
     width: 100%;
     display: flex;
@@ -646,49 +689,178 @@ h3 {
 }
 
 .gold {
-    background-color: #C9B26B;
-    margin-left: 11.28%;
-    margin-right: 11.28%;
+    position: relative;
+    display: inline-flex;
+    background-color: #AA8E46;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: -4%;
 }
 
 .news {
+    position: relative;
+    margin-left: 6.5%;
     font-family: 'Buda';
     font-style: normal;
     font-weight: 300;
-    font-size: 75px;
-    text-align: center;
-    max-width: 50%;
+    font-size: 48px;
+    max-width: 80%;
+    margin-top: 15%;
 }
 
 .test {
-    border-radius: 40px;
+    position: relative;
+    border-radius: 50px;
     border: none;
-    height: 125px;
+    height: 100px;
     font-family: 'Arimo';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     color: #000000;
-    width: 72.9411764706%;
+    width: 64%;
+    padding-left: 5.85%;
 }
 
 ::placeholder {
+    position: relative;
     font-family: 'Arimo';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 28px;
-    color: #000000;
+    color: #7A7A7A;
 }
 
 form {
+    position: relative;
+    margin-left: 6.5%;
     width: 76.17%;
-    border-radius: 40px;
+    border-radius: 50px;
+    height: 100px;
     background-color: #FFFFFF;
 }
 
 textarea:focus,
 input:focus {
+    position: relative;
     outline: none;
+}
+
+.dbord4 {
+    position: relative;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: #000000;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.marge2 {
+    position: relative;
+    width: 100%;
+    margin-top: 8%;
+}
+
+.ri {
+    float: right;
+    position: relative;
+    padding-top: 50%;
+    width: 38.42%;
+}
+
+.test2 {
+    margin-top: 8%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.newsp {
+    position: relative;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-left: 6.5%;
+    max-width: 60%;
+    margin-top: 1.75%;
+}
+
+.dbord10 {
+    position: relative;
+    border: 1px solid #FFFFFF;
+    border-radius: 40px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.inner10 {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.bflex {
+    margin-top: 18%;
+    position: relative;
+    display: flex;
+    margin-left: 5.21%;
+}
+
+.chocobn {
+    position: relative;
+    font-family: 'Buda';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.taille {
+    width: 29.51%;
+}
+
+.tb+.tb {
+    margin-top: 20px;
+}
+
+.tb {
+    position: relative;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.copy {
+    margin-top: 2.37%;
+    text-align: center;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    /* identical to box height, or 37px */
+    color: #FFFFFF;
+    padding-bottom: 2.37%;
+}
+
+.yaoi {
+    margin-top: 5.31%;
+    width: 100%;
+}
+
+.bbflex {
+    margin-top: 50px;
 }

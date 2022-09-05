@@ -1,0 +1,400 @@
+@font-face {
+    font-family: 'Buda';
+    src: url(../font/Buda.ttf);
+}
+
+
+/* cyrillic-ext */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcDRrBZQI.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+
+/* cyrillic */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcBBrBZQI.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+
+/* greek-ext */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcDBrBZQI.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+
+/* greek */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcAxrBZQI.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+
+/* hebrew */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcAhrBZQI.woff2) format('woff2');
+    unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+
+
+/* vietnamese */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcDxrBZQI.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcDhrBZQI.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+
+/* latin */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v26/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcABrB.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,700;1,900&display=swap');
+body {
+    background-color: #0A0A0B;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.bk1 {
+    position: relative;
+    background-image: url('../img/owega.png');
+    width: 100%;
+    background-size: contain;
+    height: 0;
+    padding-top: 52.2569444444%;
+    background-repeat: no-repeat;
+}
+
+.navbar-brand {
+    position: relative;
+    font-family: 'Buda' !important;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 300;
+    margin-left: -3%;
+}
+
+.navbar {
+    margin-top: -48.4%;
+    position: relative;
+    margin-left: 5.1%;
+}
+
+.nav-item {
+    position: relative;
+    margin-left: 25px;
+    max-lines: 1;
+}
+
+.navbar-nav {
+    position: relative;
+    margin-left: 6.6%;
+}
+
+.right {
+    position: relative;
+    margin-top: 10px;
+    margin-right: 5.1%;
+}
+
+.resmid {
+    position: relative;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.nav-link {
+    position: relative;
+    font-family: 'Arimo' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.dbord10 {
+    position: relative;
+    border: 1px solid #FFFFFF;
+    border-radius: 40px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.inner10 {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.succes {
+    margin-top: 12.46%;
+    position: relative;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.succes2 {
+    font-family: 'Buda';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.center8 {
+    margin-top: 20.73%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+    width: 85.64%;
+}
+
+h2 {
+    margin-top: 15px;
+    position: relative;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    /* or 68px */
+    color: #FFFFFF;
+}
+
+.title {
+    margin-top: -8px;
+    position: relative;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 212.99%;
+    /* or 51px */
+    color: #A0843D;
+}
+
+.thediv {
+    width: 25%;
+    padding-left: 5.21%;
+}
+
+.center9 {
+    margin-top: 5.23%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    width: 100%;
+    margin-top: 24.23%;
+}
+
+.gold {
+    margin-top: 17.3%;
+    position: relative;
+    display: inline-flex;
+    background-color: #AA8E46;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.news {
+    position: relative;
+    margin-left: 6.5%;
+    font-family: 'Buda';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    max-width: 80%;
+    margin-top: 15%;
+}
+
+.newsp {
+    position: relative;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-left: 6.5%;
+    max-width: 60%;
+    margin-top: 1.75%;
+}
+
+.marge2 {
+    position: relative;
+    width: 100%;
+    margin-top: 8%;
+}
+
+form {
+    position: relative;
+    margin-left: 6.5%;
+    width: 76.17%;
+    border-radius: 50px;
+    height: 100px;
+    background-color: #FFFFFF;
+}
+
+textarea:focus,
+input:focus {
+    position: relative;
+    outline: none;
+}
+
+.test {
+    position: relative;
+    border-radius: 50px;
+    border: none;
+    height: 100px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    width: 64%;
+    padding-left: 5.85%;
+}
+
+.dbord4 {
+    position: relative;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: #000000;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.inner2 {
+    position: relative;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF
+}
+
+.bflex {
+    margin-top: 21.5%;
+    position: relative;
+    display: flex;
+    margin-left: 5.21%;
+}
+
+.chocobn {
+    position: relative;
+    font-family: 'Buda';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.taille {
+    width: 29.51%;
+}
+
+.tb+.tb {
+    margin-top: 20px;
+}
+
+.tb {
+    position: relative;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.copy {
+    margin-top: 2.37%;
+    text-align: center;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    /* identical to box height, or 37px */
+    color: #FFFFFF;
+    padding-bottom: 2.37%;
+}
+
+.yaoi {
+    margin-top: 5.31%;
+    width: 100%;
+}
+
+.bbflex {
+    margin-top: 50px;
+}
